@@ -2,6 +2,7 @@
 
 chrome.browserAction.onClicked.addListener( tab => {
   chrome.tabs.executeScript(tab.ib, {
-    file: 'inject/inject.js'
-  })
+    file: 'src/inject/inject.js'
+  });
+  console.log('Chrome extension was clicked!!');
 });
