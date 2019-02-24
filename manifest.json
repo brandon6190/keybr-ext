@@ -21,8 +21,7 @@
     "default_title": "Hide Ads"
   },
   "permissions": [
-    "https://www.keybr.com/",
-    "activeTab"
+    "https://www.keybr.com/"
   ],
   "content_scripts": [
     {
