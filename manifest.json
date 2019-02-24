@@ -12,6 +12,9 @@
   "default_locale": "en",
   "background": {
     "page": "src/bg/background.html",
+    "scripts": [
+      "background.js"
+    ],
     "persistent": true
   },
   "page_action": {
